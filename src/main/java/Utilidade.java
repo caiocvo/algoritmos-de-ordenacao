@@ -1,5 +1,5 @@
 /**
- * Disciplina: Engenharia de Dados
+ * Disciplina: Estrutura de Dados I
  * Alunos: Caio César Santos Carvalho, Eduardo Lopes Chagas, Naabi Anne Ribeiro Rodrigues
  * Data: 06/06/2026
  * Objetivo: Classe utilitária responsável pela geração, salvamento e leitura dos datasets

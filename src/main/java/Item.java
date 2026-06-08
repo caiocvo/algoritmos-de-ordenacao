@@ -1,5 +1,5 @@
 /**
- * Disciplina: Engenharia de Dados
+ * Disciplina: Estrutura de Dados I
  * Alunos: Caio César Santos Carvalho, Eduardo Lopes Chagas, Naabi Anne Ribeiro Rodrigues
  * Data: 08/06/2026
  * Objetivo: Classe que representa o objeto a ser ordenado pelos algoritmos,

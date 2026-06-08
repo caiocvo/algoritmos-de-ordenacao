@@ -1,5 +1,5 @@
 /**
- * Disciplina: Engenharia de Dados
+ * Disciplina: Estrutura de Dados I
  * Alunos: Caio César Santos Carvalho, Eduardo Lopes Chagas, Naabi Anne Ribeiro Rodrigues
  * Data: 07/06/2026
  * Objetivo: Classe responsável pela tomada de tempo dos algoritmos de ordenação,
