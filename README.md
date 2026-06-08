@@ -138,9 +138,9 @@ Algoritmo de divisão e conquista que divide o vetor ao meio recursivamente e in
 
 ## Seção de gráficos
 
-![image1](https://raw.githubusercontent.com/caiocvo/algoritmos-de-ordenacao/blob/main/images/image3.png)
-![image1](https://raw.githubusercontent.com/caiocvo/algoritmos-de-ordenacao/blob/main/images/image2.png)
-![image1](https://raw.githubusercontent.com/caiocvo/algoritmos-de-ordenacao/blob/main/images/image1.png)
+![image1](https://raw.githubusercontent.com/caiocvo/algoritmos-de-ordenacao/main/images/image3.png)
+![image1](https://raw.githubusercontent.com/caiocvo/algoritmos-de-ordenacao/main/images/image2.png)
+![image1](https://raw.githubusercontent.com/caiocvo/algoritmos-de-ordenacao/main/images/image1.png)
 
 
 ---
