@@ -1,3 +1,12 @@
+/**
+ * Disciplina: Engenharia de Dados
+ * Alunos: Caio César Santos Carvalho, Eduardo Lopes Chagas, Naabi Anne Ribeiro Rodrigues
+ * Data: 06/06/2026
+ * Objetivo: Classe responsável pela implementação dos algoritmos de ordenação
+ *           ShellSort, QuickSort e MergeSort sobre vetores de objetos Item.
+ */
+
+
 public class Ordena {
     public static void shellSort(Item[] vet) {
         int j, i, h;

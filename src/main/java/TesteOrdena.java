@@ -1,3 +1,12 @@
+/**
+ * Disciplina: Engenharia de Dados
+ * Alunos: Caio César Santos Carvalho, Eduardo Lopes Chagas, Naabi Anne Ribeiro Rodrigues
+ * Data: 07/06/2026
+ * Objetivo: Classe responsável pela tomada de tempo dos algoritmos de ordenação,
+ *           calculando a média de 100 execuções para cada vetor dos datasets 1 e 2.
+ */
+
+
 import java.util.List;
 
 public class TesteOrdena {
@@ -18,13 +27,13 @@ public class TesteOrdena {
 //        Ordena.quickSort(dataset1.getFirst().clone());
 
 
-        //Aquecendo a JVM
-//        for(Item[] vetor : dataset1) {
-//            for (int i = 0; i < 1000; i++) {
-//                Item[] copia = vetor.clone();
-//                Ordena.mergeSort(copia);
-//            }
-//        }
+ //       Aquecendo a JVM
+        for(Item[] vetor : dataset1) {
+            for (int i = 0; i < 1000; i++) {
+                Item[] copia = vetor.clone();
+                Ordena.mergeSort(copia);
+            }
+        }
 
         //DATASET 1 {1.000 A 10.000 ELEMENTOS}
         /*System.out.println("\n-------MergeSort---------\n");
@@ -55,7 +64,8 @@ public class TesteOrdena {
                 soma += System.nanoTime() - inicio;
             }
             double tempo = soma / 100.0;
-            System.out.println("MergeSort - tamanho " + vetor.length + ": " + tempo + " ns");
+            double ms = tempo / 1_000_000.0;
+            System.out.println("MergeSort - tamanho " + vetor.length + ": " + ms + " ms");
         }
     }
 
@@ -70,7 +80,9 @@ public class TesteOrdena {
                 soma += System.nanoTime() - inicio;
             }
             double tempo = soma / 100.0;
-            System.out.println("QuickSort - tamanho " + vetor.length + ": " + tempo + " ns");
+            double ms = tempo / 1_000_000.0;
+
+            System.out.println("QuickSort - tamanho " + vetor.length + ": " + ms + " ms");
         }
     }
 
@@ -85,7 +97,9 @@ public class TesteOrdena {
                 soma += System.nanoTime() - inicio;
             }
             double tempo = soma / 100.0;
-            System.out.println("ShellSort - tamanho " + vetor.length + ": " + tempo + " ns");
+            double ms = tempo / 1_000_000.0;
+
+            System.out.println("ShellSort - tamanho " + vetor.length + ": " + ms + " ms");
         }
     }
 }

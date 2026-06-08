@@ -1,3 +1,12 @@
+/**
+ * Disciplina: Engenharia de Dados
+ * Alunos: Caio César Santos Carvalho, Eduardo Lopes Chagas, Naabi Anne Ribeiro Rodrigues
+ * Data: 06/06/2026
+ * Objetivo: Classe utilitária responsável pela geração, salvamento e leitura dos datasets
+ *           utilizados nos testes de desempenho dos algoritmos de ordenação.
+ */
+
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
